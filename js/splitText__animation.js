@@ -56,9 +56,10 @@ gsap.from(chars, {
     y: 100,
     stagger: 0.01,
     ease: "back.out",
+    opacity: 0,
     duration: 0.5,
     scrollTrigger : {
-        scroller: "[data-scroll-container]",
+        scroller: "[data-scroll-container",
         trigger: ".split",
         start: "top center",
         // scrub: true, 
