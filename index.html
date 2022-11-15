@@ -4,30 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <title>Document</title>
 </head>
 <body>
 
-    <div style="height: 120vh;">
-        <h1>Please scroll down until the text animate</h1>
+    <div style="perspective: 1px;" class="_container">
+        <div style="height: 120vh;">
+            <h1>Please scroll down until the text animate</h1>
+        </div>
+        <ul class="split">
+            <li><h1><a href="">Home</a></h1></li>
+            <li><h1><a href="">About us</a></h1></li>
+            <li><h1><a href="">contact with us</a></h1></li>
+        </ul>    
+        <ul class="_js_splitText_heading2">
+            <li><h1><a href="">Home</a></h1></li>
+            <li><h1><a href="">About us</a></h1></li>
+            <li><h1><a href="">contact with us</a></h1></li>
+        </ul>    
+        
+        <div style="height: 100vh;"></div>
     </div>
-    <ul class="split">
-        <li><h1><a href="">Home</a></h1></li>
-        <li><h1><a href="">About us</a></h1></li>
-        <li><h1><a href="">contact with us</a></h1></li>
-    </ul>    
-    <ul class="_js_splitText_heading2">
-        <li><h1><a href="">Home</a></h1></li>
-        <li><h1><a href="">About us</a></h1></li>
-        <li><h1><a href="">contact with us</a></h1></li>
-    </ul>    
-    
-    <div style="height: 100vh;"></div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/EasePack.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
 
     <script src="./packages/splitText.js"></script>
     <script src="./js/splitText__animation.js"></script>
